@@ -1,0 +1,398 @@
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+.flags {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+
+.label {
+  font-size: medium;
+  font-weight: 200;
+  color: #0000ff;
+}
+
+.label:hover {
+  font-size: large;
+  font-weight: 900;
+  color: #ffa500;
+}
+
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: calc(100% / 3);
+}
+
+.threehoriz {
+  width: 33.3%;
+}
+
+.narrow {
+  height: 17.5%;
+}
+
+.wide {
+  height: 30%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+.orange {
+  background-color: #ffa500;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.green {
+  background-color: #008000;
+}
+
+.blue {
+  background-color: #0000ff;
+}
+
+.light-blue {
+  background-color: #00a3e0;
+}
+
+.purple {
+  background-color: #800080;
+}
+
+#white {
+  background-color: #ffffff;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.red {
+  background-color: #ef3340;
+}
+
+.thailand-red {
+  height: calc(calc(100% / 3) / 2);
+  background-color: #b5002d;
+}
+
+.thailand-white {
+  height: calc(calc(100% / 3) / 2);
+  background-color: #ffffff;
+}
+
+.thailand-blue {
+  height: calc(100% / 3);
+  background-color: #2e2a4c;
+}
+
+.romania-blue {
+  background-color: #002b7f;
+}
+
+.romania-yellow {
+  background-color: #fcd116;
+}
+
+.romania-red {
+  background-color: #ce1126;
+}
+
+.mexico-green {
+  background-color: #006847;
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.mexico-img {
+  align-self: center;
+  max-width: calc(100% / 3);
+}
+
+.mexico-red {
+  background-color: #ce1125;
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.margin-container {
+  height: 300px;
+  width: 1030px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.flag1 {
+  background-color: #ff0000;
+  width: 100%;
+  margin-right: 5px;
+}
+
+.flag2 {
+  background-color: blue;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.padding-container {
+  box-sizing: border-box;
+  background-color: lightblue;
+  background-clip: content-box, padding-box;
+  padding: 30px;
+}
+
+.greece-flag {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  background: repeating-linear-gradient(
+    #055eb2,
+    #055eb2 11.11%,
+    #fff 11.11%,
+    #fff 22.22%
+  );
+}
+
+.greece-cross {
+  width: 178px;
+  height: 151.33px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.greece-cross > * {
+  background-color: #055eb2;
+}
+
+.south-africa-flag {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.south-africa-flag:before,
+.south-africa-flag:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.south-africa-flag:before {
+  height: 134px;
+  background: white;
+  top: 133px;
+}
+
+.south-africa-flag:after {
+  top: 160px;
+  background: #007a4d;
+  height: 80px;
+}
+
+.south-africa-subflag1 {
+  border-top: 200px solid #de3831;
+  border-bottom: 200px solid #002395;
+}
+
+.south-africa-subflag1:before,
+.south-africa-subflag1:after,
+.south-africa-subflag2:before {
+  position: absolute;
+  content: "";
+  display: block;
+  border-width: 382px 573px;
+  top: -182px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.south-africa-subflag1:before {
+  border-left-color: #007a4d;
+  left: -201px;
+  z-index: 1;
+}
+
+.south-africa-subflag1:after {
+  border-left-color: #fff;
+  left: -153px;
+}
+
+.south-africa-subflag2:before {
+  top: -382px;
+  border-left-color: #000;
+  left: -621px;
+}
+
+.south-africa-subflag2 {
+  border-style: solid;
+  border-color: transparent transparent transparent #ffb612;
+  border-width: 382px 573px;
+  top: -182px;
+  position: absolute;
+  left: -345px;
+  z-index: 1;
+}
+
+.seychelis-flag {
+  position: relative;
+  height: 300px;
+  width: 500px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  background: linear-gradient(
+    120deg,
+    #013a89 100px,
+    #fcda54 100px,
+    #fcda54 280px,
+    #fff 0
+  );
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.seychelis-flag::before {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: linear-gradient(130deg, rgb(217 34 35) 239px, rgb(255 255 255) 0);
+  left: 119px;
+  top: 0px;
+  transform: skew(-50deg);
+}
+
+.seychelis-flag::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #007a39;
+  top: 249px;
+  transform: scaleX(1.5) rotate(-20deg);
+}
+
+.north-macedonia-flag {
+  position: relative;
+  height: 300px;
+  width: 500px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  background: #d91a21;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.north-macedonia-flag::before {
+  content: "";
+  position: absolute;
+  background-color: #f8e92e;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 1in;
+  border: 6px solid #d91a21;
+  z-index: 1;
+}
+
+.north-macedonia-flag > .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 50%;
+  -webkit-box-reflect: right 0;
+}
+
+.north-macedonia-flag > .left > .shape,
+.north-macedonia-flag > .top,
+.north-macedonia-flag > .bottom {
+  background-color: #f8e92e;
+  width: 100%;
+  height: 40px;
+  clip-path: polygon(0 0, 100% 45%, 100% 55%, 0% 100%);
+}
+
+.north-macedonia-flag > .left > .shape:nth-child(1) {
+  transform: scaleX(1.5) rotate(50deg);
+}
+.north-macedonia-flag > .left > .shape:nth-child(3) {
+  transform: scaleX(1.5) rotate(-50deg);
+}
+
+.north-macedonia-flag > .top,
+.north-macedonia-flag > .bottom {
+  position: absolute;
+  margin: 0 auto;
+  width: 25%;
+  height: 50px;
+  rotate: 90deg;
+  left: 33%;
+  top: 37px;
+  transform: translatey(-50%);
+}
+
+.north-macedonia-flag > .bottom {
+  transform: scaleX(-1);
+  top: 70%;
+  left: 38%;
+}
+
+.finland-flag {
+  position: relative;
+  border-style: solid;
+  height: 250px;
+  width: 500px;
+  margin-bottom: 5rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  background: linear-gradient(#fff 75px, #233d7b 75px, #233d7b 125px, #fff 0);
+}
+
+.finland-flag::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 100%;
+  background-color: #233d7b;
+  left: 25%;
+}
