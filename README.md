@@ -12,3 +12,4 @@ The description and requirements of HW2 - CSS from the course CS 198-99 Introduc
 My solution of HW2 - CSS has been deployed using GitHub Pages and can be found [here](https://georgiosioannoucoder.github.io/hw2-css/).
 
 ## Demo
+https://github.com/GeorgiosIoannouCoder/hw2-css/assets/110848236/d409249a-d6c1-4c01-8bfb-f4afc4868996
